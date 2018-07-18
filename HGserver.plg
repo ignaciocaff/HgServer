@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HGserver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\juan\AppData\Local\Temp\RSP662E.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"debug/" /Fp"debug/HGserver.pch" /YX /Fo"debug/" /Fd"debug/" /FD /c 
+"D:\Helbreath\HGServer\Game.cpp"
+]
+Creating command line "cl.exe @C:\Users\juan\AppData\Local\Temp\RSP662E.tmp" 
+Creating temporary file "C:\Users\juan\AppData\Local\Temp\RSP662F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /profile /debug /machine:I386 /out:"debug/HGserver.exe" 
+.\debug\BuildItem.obj
+.\debug\Client.obj
+.\debug\DelayEvent.obj
+.\debug\DynamicObject.obj
+.\debug\Fish.obj
+.\debug\Game.obj
+.\debug\GuildsMan.obj
+.\debug\Item.obj
+.\debug\Magic.obj
+.\debug\Map.obj
+.\debug\Mineral.obj
+.\debug\Misc.obj
+.\debug\Msg.obj
+.\debug\Npc.obj
+.\debug\OccupyFlag.obj
+.\debug\Potion.obj
+.\debug\Quest.obj
+.\debug\Skill.obj
+.\debug\StrategicPoint.obj
+.\debug\StrTok.obj
+.\debug\Teleport.obj
+.\debug\TeleportLoc.obj
+.\debug\TempNpcItem.obj
+.\debug\Tile.obj
+.\debug\wmain.obj
+.\debug\XSocket.obj
+.\debug\DebugDialog.obj
+.\debug\HGserver.res
+.\Winmm.lib
+.\Ws2_32.lib
+]
+Creating command line "link.exe @C:\Users\juan\AppData\Local\Temp\RSP662F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Game.cpp
+d:\helbreath\hgserver\client.h(23) : warning C4005: 'DEF_MSGBUFFERSIZE' : macro redefinition
+        d:\helbreath\hgserver\globaldef.h(24) : see previous definition of 'DEF_MSGBUFFERSIZE'
+d:\helbreath\hgserver\globaldef.h(24) : warning C4005: 'DEF_MSGBUFFERSIZE' : macro redefinition
+        d:\helbreath\hgserver\client.h(23) : see previous definition of 'DEF_MSGBUFFERSIZE'
+d:\helbreath\hgserver\game.cpp(12014) : warning C4101: 'cGSReg' : unreferenced local variable
+Linking...
+Client.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1600"; ignored
+Client.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+Map.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1600"; ignored
+Map.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+Npc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1600"; ignored
+Npc.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+wmain.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1600"; ignored
+wmain.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+XSocket.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1600"; ignored
+XSocket.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+libcpmtd.lib(locale0.obj) : error LNK2005: "public: static unsigned int const std::ctype<char>::table_size" (?table_size@?$ctype@D@std@@2IB) already defined in Client.obj
+LINK : fatal error LNK1207: incompatible PDB format in "D:\Helbreath\HGServer\debug\HGserver.pdb"; delete and rebuild
+Error executing link.exe.
+Creating temporary file "C:\Users\juan\AppData\Local\Temp\RSP7741.tmp" with contents
+[
+/nologo /o"debug/HGserver.bsc" 
+.\debug\BuildItem.sbr
+.\debug\Client.sbr
+.\debug\DelayEvent.sbr
+.\debug\DynamicObject.sbr
+.\debug\Fish.sbr
+.\debug\Game.sbr
+.\debug\GuildsMan.sbr
+.\debug\Item.sbr
+.\debug\Magic.sbr
+.\debug\Map.sbr
+.\debug\Mineral.sbr
+.\debug\Misc.sbr
+.\debug\Msg.sbr
+.\debug\Npc.sbr
+.\debug\OccupyFlag.sbr
+.\debug\Potion.sbr
+.\debug\Quest.sbr
+.\debug\Skill.sbr
+.\debug\StrategicPoint.sbr
+.\debug\StrTok.sbr
+.\debug\Teleport.sbr
+.\debug\TeleportLoc.sbr
+.\debug\TempNpcItem.sbr
+.\debug\Tile.sbr
+.\debug\wmain.sbr
+.\debug\XSocket.sbr
+.\debug\DebugDialog.sbr]
+Creating command line "bscmake.exe @C:\Users\juan\AppData\Local\Temp\RSP7741.tmp"
+Creating browse info file...
+BSCMAKE: error BK1515 : 'debug/HGserver.bsc': incompatible version; cannot incrementally update
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HGserver.exe - 3 error(s), 13 warning(s)
+</pre>
+</body>
+</html>
